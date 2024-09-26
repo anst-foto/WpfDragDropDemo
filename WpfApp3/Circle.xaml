@@ -1,0 +1,11 @@
+﻿<UserControl x:Class="WpfApp3.Circle"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfApp3"
+             AllowDrop="True">
+    <Grid>
+        <Ellipse x:Name="circleUI" 
+                 Height="100" Width="100"
+                 Fill="Blue" />
+    </Grid>
+</UserControl>
